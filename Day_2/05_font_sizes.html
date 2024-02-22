@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why you shouldn't set font-size using em</title>
+    <style>
+        html{
+            font-size: 1.125em; 
+            /* 1.125em = 18px */
+            
+            /* font-size: 62.5%; */
+            /* 16.0.625 =  10px*/
+
+        }
+
+        .btn{
+            display: inline-block;
+            background: blue;
+            color: white;
+        }
+
+        .em, .rem{
+            font-size: 2.5em;
+        }
+        /* em */
+        .btn__em{
+            padding: 0.5em 1.5em;
+            font-size: 1.5em;
+
+            /* font-size: 0.6em; */
+            /* 1.5(btn__rem)  % 2.5 (.rem) */
+        }
+        /* rem */
+        .btn__rem{
+            padding: 0.5rem 1.5rem;
+            font-size: 1.5rem;
+
+            /* font-size: 3.75rem; */
+            /* 1.5(btn__rem)  * 2.5 (.rem) */
+        }
+    </style>
+</head>
+
+<body>
+<h1>Why ems can be dangerous</h1>
+    <div class="em">
+        <h2>em</h2>
+        <div class="btn btn__em">
+            Result
+            <!-- Because em is origin em element (2.5em)-->
+        </div>
+    </div>
+    <div class="rem">
+        <h2>rem</h2>
+        <div class="btn btn__rem">
+            Result
+            <!-- Because rem is origin html element (1.125em) -->
+        </div>
+    </div>
+</body>
+</html>
