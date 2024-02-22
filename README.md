@@ -12,3 +12,8 @@
 
 1. [rem and em](Day_2/04_rem_and_em.html)
 2. [Why you shouldn't set font-sizes using em](Day_2/05_font_sizes.html)
+
+## Day 3 | Enter max-width
+
+1. [Adding in a max-width](Day_3/06_max-width.html)
+2. [Challenge 2](Day_3/07_more-content.html)
