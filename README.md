@@ -17,3 +17,8 @@
 
 1. [Adding in a max-width](Day_3/06_max-width.html)
 2. [Challenge 2](Day_3/07_more-content.html)
+
+## Day 4 | Extra curricular activities
+
+- [CSS Units: vh, vw vmin, vmax](Day_4/08_curricular.html)
+  
