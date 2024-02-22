@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units: vh, vw, vmin, vmax</title>
+    <style>
+        .container{
+            background: linear-gradient(to left, #83a4d4, #b6fbff);
+            padding: 5em 0;
+
+            height: 80vh;
+        }
+        .container-bottom{
+            background: linear-gradient(to left,#b6fbff,#83a4d4) ;
+            padding: 5em 0;
+
+            height: 80vh;
+        }
+        .content h1{
+            font-size: 10vw;
+            /* fix responsive font-size */
+        }
+        .content p{
+            font-size: 4vw;
+            line-height: 1.7;
+        }
+
+        /* vw : % precentage origin html view width */
+        /* vh : % precentage origin html view height */
+        /* vmax : % precentage origin html view width and maxium */
+        /* vmin : % precentage origin html view width and minium */
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Using vh and vw</h1>
+            <p>Viewport width and height are fantastic units for this type of thing! Just make sure you test things out on mobile too, you'll probably need some media queries as there is a good chance things don't work out well on mobile!</p>
+        </div>
+    </div>
+    <div class="container-bottom"></div>
+</body>
+</html>
