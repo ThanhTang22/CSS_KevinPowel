@@ -20,5 +20,8 @@
 
 ## Day 4 | Extra curricular activities
 
-- [CSS Units: vh, vw vmin, vmax](Day_4/08_curricular.html)
-  
+ [CSS Units: vh, vw vmin, vmax](Day_4/08_curricular.html)
+
+## Day 5 | Practice time
+
+[Solution](Day_5/09_practice.html)
