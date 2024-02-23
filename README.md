@@ -29,3 +29,7 @@
 ## Day 6 | A Tale of width and max-width
 
 [width and max-width](Day_6/10_wide.html)
+
+## Day 7 | My solution to challenge
+
+[Fix solution day 5](Day_7/11_fix_day5.html)
