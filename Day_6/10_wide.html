@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Tale of width and max-width</title>
+
+    <style>
+        .bg-clr{
+            background-color: green;
+            margin: 0 auto;
+        }
+
+        .one{
+            width: 100%;
+            max-width: 600px;
+        }
+        .two{
+            width: 600px;
+            max-width: 100%;
+        }
+
+
+        .parent{
+            border: 1px solid;
+            margin: 0 auto;
+        }
+        .wide-1000px{
+            width: 1000px;
+        }
+        .wide-320px{
+            width: 320px;
+        }
+    </style>
+</head>
+<body>
+    <!-- ex 1: -->
+    <div class="bg-clr one">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus placeat repellat facilis repudiandae minima, ex corrupti? Vitae facere, odit cupiditate laboriosam inventore provident ipsam. Nobis deleniti hic ducimus dolore sed, totam quia vel architecto repudiandae aut vitae laboriosam repellat. Officiis nam quaerat, illum quas tempora voluptatem a voluptatum veniam eum beatae aliquam ex nesciunt esse, suscipit perferendis assumenda. Voluptatibus asperiores animi molestias ipsum ut. Sit provident consectetur maiores harum cumque dolores voluptatibus at recusandae vero nulla eaque assumenda sapiente quae, a, animi, cupiditate numquam praesentium reprehenderit asperiores magnam! Necessitatibus maiores suscipit perferendis a neque aliquid fugiat odit distinctio debitis saepe!</p>
+    </div>
+    <div class="bg-clr two">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus placeat repellat facilis repudiandae minima, ex corrupti? Vitae facere, odit cupiditate laboriosam inventore provident ipsam. Nobis deleniti hic ducimus dolore sed, totam quia vel architecto repudiandae aut vitae laboriosam repellat. Officiis nam quaerat, illum quas tempora voluptatem a voluptatum veniam eum beatae aliquam ex nesciunt esse, suscipit perferendis assumenda. Voluptatibus asperiores animi molestias ipsum ut. Sit provident consectetur maiores harum cumque dolores voluptatibus at recusandae vero nulla eaque assumenda sapiente quae, a, animi, cupiditate numquam praesentium reprehenderit asperiores magnam! Necessitatibus maiores suscipit perferendis a neque aliquid fugiat odit distinctio debitis saepe!</p>
+    </div>
+
+    <!-- ex 2: parent max-->
+    <div class="parent wide-1000px">
+        <div class="bg-clr one">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus placeat repellat facilis repudiandae minima, ex corrupti? Vitae facere, odit cupiditate laboriosam inventore provident ipsam. Nobis deleniti hic ducimus dolore sed, totam quia vel architecto repudiandae aut vitae laboriosam repellat. Officiis nam quaerat, illum quas tempora voluptatem a voluptatum veniam eum beatae aliquam ex nesciunt esse, suscipit perferendis assumenda. Voluptatibus asperiores animi molestias ipsum ut. Sit provident consectetur maiores harum cumque dolores voluptatibus at recusandae vero nulla eaque assumenda sapiente quae, a, animi, cupiditate numquam praesentium reprehenderit asperiores magnam! Necessitatibus maiores suscipit perferendis a neque aliquid fugiat odit distinctio debitis saepe!</p>
+        </div>
+    </div>
+    <div class="parent wide-1000px">
+        <div class="bg-clr two">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus placeat repellat facilis repudiandae minima, ex corrupti? Vitae facere, odit cupiditate laboriosam inventore provident ipsam. Nobis deleniti hic ducimus dolore sed, totam quia vel architecto repudiandae aut vitae laboriosam repellat. Officiis nam quaerat, illum quas tempora voluptatem a voluptatum veniam eum beatae aliquam ex nesciunt esse, suscipit perferendis assumenda. Voluptatibus asperiores animi molestias ipsum ut. Sit provident consectetur maiores harum cumque dolores voluptatibus at recusandae vero nulla eaque assumenda sapiente quae, a, animi, cupiditate numquam praesentium reprehenderit asperiores magnam! Necessitatibus maiores suscipit perferendis a neque aliquid fugiat odit distinctio debitis saepe!</p>
+        </div>
+    </div>
+
+        <!-- ex 2: parent min-->
+        <div class="parent wide-320px">
+            <div class="bg-clr one">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus placeat repellat facilis repudiandae minima, ex corrupti? Vitae facere, odit cupiditate laboriosam inventore provident ipsam. Nobis deleniti hic ducimus dolore sed, totam quia vel architecto repudiandae aut vitae laboriosam repellat. Officiis nam quaerat, illum quas tempora voluptatem a voluptatum veniam eum beatae aliquam ex nesciunt esse, suscipit perferendis assumenda. Voluptatibus asperiores animi molestias ipsum ut. Sit provident consectetur maiores harum cumque dolores voluptatibus at recusandae vero nulla eaque assumenda sapiente quae, a, animi, cupiditate numquam praesentium reprehenderit asperiores magnam! Necessitatibus maiores suscipit perferendis a neque aliquid fugiat odit distinctio debitis saepe!</p>
+            </div>
+        </div>
+        <div class="parent wide-320px">
+            <div class="bg-clr two">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus placeat repellat facilis repudiandae minima, ex corrupti? Vitae facere, odit cupiditate laboriosam inventore provident ipsam. Nobis deleniti hic ducimus dolore sed, totam quia vel architecto repudiandae aut vitae laboriosam repellat. Officiis nam quaerat, illum quas tempora voluptatem a voluptatum veniam eum beatae aliquam ex nesciunt esse, suscipit perferendis assumenda. Voluptatibus asperiores animi molestias ipsum ut. Sit provident consectetur maiores harum cumque dolores voluptatibus at recusandae vero nulla eaque assumenda sapiente quae, a, animi, cupiditate numquam praesentium reprehenderit asperiores magnam! Necessitatibus maiores suscipit perferendis a neque aliquid fugiat odit distinctio debitis saepe!</p>
+            </div>
+        </div>
+</body>
+</html>
