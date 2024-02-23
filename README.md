@@ -25,3 +25,7 @@
 ## Day 5 | Practice time
 
 [Solution](Day_5/09_practice.html)
+
+## Day 6 | A Tale of width and max-width
+
+[width and max-width](Day_6/10_wide.html)
