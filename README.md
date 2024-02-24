@@ -36,4 +36,5 @@
 
 ## Day 8 | Flexbox basics
 
-[Flexbox basic](Day_8/12_flexbox.html)
+1. [Flexbox basic](Day_8/12_flexbox.html)
+2. [Adding space in between columns](Day_8/13_space_col.html)
