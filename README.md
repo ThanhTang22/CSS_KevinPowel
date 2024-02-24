@@ -33,3 +33,7 @@
 ## Day 7 | My solution to challenge
 
 [Fix solution day 5](Day_7/11_fix_day5.html)
+
+## Day 8 | Flexbox basics
+
+[Flexbox basic](Day_8/12_flexbox.html)
