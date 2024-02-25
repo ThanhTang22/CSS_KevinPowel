@@ -38,3 +38,4 @@
 
 1. [Flexbox basic](Day_8/12_flexbox.html)
 2. [Adding space in between columns](Day_8/13_space_col.html)
+3. [Flexbox challenge](Day_8/14_flexbox_challenge.html)
