@@ -39,3 +39,7 @@
 1. [Flexbox basic](Day_8/12_flexbox.html)
 2. [Adding space in between columns](Day_8/13_space_col.html)
 3. [Flexbox challenge](Day_8/14_flexbox_challenge.html)
+
+## Day 9 | A deeper dive into flexbox
+
+1. [Reducing the amount of HTML needed](Day_9/15_flexbox_challenge_reduc.html)
