@@ -1,0 +1,114 @@
+/* Custom properties */
+:root{
+    /* primary */
+    --clr-Plantation: #23424A;
+    --clr-Trendy_Pink: #87629A;
+    --clr-Genoa: #136C72;
+    --clr-Mine_Shaft: #3A3A3A;
+    --clr-Scooter: #38CFD9;
+
+    /* neutral */
+    --clr-neutral--300: #fff;
+    --clr-neutral--500: #eee;
+    --clr-neutral--700: #000;
+
+    /* font family */
+    --ff-base: 'Roboto', sans-serif;
+
+    /* font size */
+    --fs-100: .625rem;
+    --fs-200: .875rem;
+    --fs-300: 1rem;
+    --fs-400: 1.125rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.75rem;
+    --fs-700: 3.25rem;
+
+    /* font weight */
+    --fw-regular: 300;
+    --fw-black: 500;
+    --fw-bold: 900;
+
+}
+
+/* Setting box-sizing */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    color-scheme: dark;
+    scroll-behavior: smooth;
+}
+
+/* Base style */
+body{
+    font-family: var(--ff-base);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-regular);
+    line-height: 1.5;
+
+    color: var(--clr-neutral--300);
+}
+
+/* page-header */
+.page-header{
+    background-color: var(--clr-Plantation);
+}
+.page-header__margin{
+    width: 80%;
+    margin: 0 auto;
+}
+.page-header__border{
+    width: 50%;
+    padding-block: 2rem;
+}
+
+.page-header__border h1{
+    font-size: var(--fs-700);
+}
+.page-header__border p{
+    margin-block: 2em 5em;
+}
+.page-header__border a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: var(--fs-500);
+    font-weight: var(--fw-black);
+    color: var(--clr-neutral--700);
+    word-spacing: 5px;
+}
+.btn--learn{
+    display: inline-block;
+    background-color: var(--clr-Scooter);
+    border-radius: 100px;
+
+    padding: 1em 3em;
+    margin-bottom: 2em;
+}
+
+
+/* page-container__primary */
+.page-container__primary{
+    background-color: var(--clr-neutral--300);
+    color: var(--clr-neutral--700);
+}
+.page-container__row{
+    display: flex;
+    
+    width: 80%;
+    margin: 0 auto;
+    padding-block: 5em;
+}
+.page-container__col+.page-container__col{
+    margin-left: 2em;
+}
+
+/* .page-container__secondary */
+.page-container__secondary{
+    background-color: var(--clr-Genoa);
+    color: var(--clr-neutral--300);
+}

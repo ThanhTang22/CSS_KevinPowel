@@ -33,3 +33,13 @@
 ## Day 7 | My solution to challenge
 
 [Fix solution day 5](Day_7/11_fix_day5.html)
+
+## Day 8 | Flexbox basics
+
+1. [Flexbox basic](Day_8/12_flexbox.html)
+2. [Adding space in between columns](Day_8/13_space_col.html)
+3. [Flexbox challenge](Day_8/14_flexbox_challenge.html)
+
+## Day 9 | A deeper dive into flexbox
+
+[Reducing the amount of HTML needed](Day_9/15_flexbox_challenge_reduc.html)

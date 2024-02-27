@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        .container{
+            /* background-color: green; */
+        }
+        .container-row{
+            /* default flex => flex container */
+            display: flex;
+            /* default flex => row */
+            flex-direction: row;
+
+            border: 1px solid;
+        }
+        .container-col{
+
+            margin: 0 1em;
+            border: 3px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <r class="container-row">
+            <div class="container-col">
+                <h1>Column 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur aspernatur itaque illo autem atque ratione officiis maxime sapiente sunt reprehenderit accusamus doloremque magnam nulla sequi, debitis praesentium repudiandae quam et.</p>
+            </div>
+            <div class="container-col">
+                <h1>Column 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur aspernatur itaque illo autem atque ratione officiis maxime sapiente sunt reprehenderit accusamus doloremque magnam nulla sequi, debitis praesentium repudiandae quam et.</p>
+            </div>
+            <div class="container-col">
+                <h1>Column 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur aspernatur itaque illo autem atque ratione officiis maxime sapiente sunt reprehenderit accusamus doloremque magnam nulla sequi, debitis praesentium repudiandae quam et.</p>
+            </div>
+        </r>
+    </div>
+</body>
+</html>
