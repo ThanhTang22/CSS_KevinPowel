@@ -42,4 +42,4 @@
 
 ## Day 9 | A deeper dive into flexbox
 
-1. [Reducing the amount of HTML needed](Day_9/15_flexbox_challenge_reduc.html)
+[Reducing the amount of HTML needed](Day_9/15_flexbox_challenge_reduc.html)
