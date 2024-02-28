@@ -43,3 +43,11 @@
 ## Day 9 | A deeper dive into flexbox
 
 [Reducing the amount of HTML needed](Day_9/15_flexbox_challenge_reduc.html)
+
+## Day 10 | Extra curricular activities
+
+Fix code day 9
+
+## Day 11 | Using flexbox for a navigation
+
+[Flexbox navigation](./Day_11/18_flexbox_nav.html)
