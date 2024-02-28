@@ -51,3 +51,7 @@ Fix code day 9
 ## Day 11 | Using flexbox for a navigation
 
 [Flexbox navigation](./Day_11/18_flexbox_nav.html)
+
+## Day 12 | Getting fancy with navigations
+
+[More improvements to the navigation](./Day_12/19_flexbox_nav__logo.html)
