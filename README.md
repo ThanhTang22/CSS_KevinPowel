@@ -55,3 +55,7 @@ Fix code day 9
 ## Day 12 | Getting fancy with navigations
 
 [More improvements to the navigation](./Day_12/19_flexbox_nav__logo.html)
+
+## Day 13 & 14 | Practice flexbox challenge 4
+
+[Flexbox Challenge #4 - Design Specs and Images](./Day_13_14/20_flexbox_challenge_4.html)

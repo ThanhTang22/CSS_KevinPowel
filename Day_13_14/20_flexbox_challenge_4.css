@@ -1,0 +1,159 @@
+/* Custom properties */
+:root{
+    /* primary */
+    --clr-VanillaIce: #F3EEd9;
+    --clr-IronStone: #824936;
+    --clr-OuterSpace: #222c2a;
+
+    /* neutral */
+    --clr-neutral-300: #fff;
+    --clr-neutral-500: #eee;
+    --clr-neutral-700: #000;
+
+    /* font size */
+    --fs-100: .625rem;
+    --fs-200: .875rem;
+    --fs-300: 1rem;
+    --fs-400: 1.125rem;
+    --fs-500: 1.25rem;
+    --fs-600: 2.25rem;
+    --fs-700: 3.75rem;
+
+    /* font weight */
+    --fw-light: 200;
+    --fw-regural: 300;
+    --fw-semi-regural: 400;
+    --fw-black: 700;
+    --fw-bold: 900;
+
+    /* font family */
+    --ff-base: 'Roboto', sans-serif;
+    --ff-title: 'Playfair Display', sans-serif;
+
+}
+/* set box-sizing */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    color-scheme: dark;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+/* Base style */
+body{
+    font-family: var(--ff-base);
+    font-size: var(--fs-500);
+    font-weight: var(--fw-regural);
+    color: var(--clr-neutral-300);
+    line-height: 1.5;
+}
+h1,h3{
+    font-family: var(--ff-title);
+}
+h1{
+    font-size: var(--fs-700);
+}
+h3{
+    font-size: var(--fs-600);
+}
+
+/** page-about */
+.page-about{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/** hero */
+.page-about__hero{
+    background-color: var(--clr-VanillaIce);
+    padding: 10em;
+    text-align: center;
+}
+
+.page-about__hero > p{
+    font-size: var(--fs-400);
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: var(--clr-neutral-700);
+
+}
+.page-about__hero > h1{
+    color: var(--clr-IronStone);
+}
+
+/* quality */
+.page-about__quality{
+    background-color: var(--clr-neutral-300);
+    color: var(--clr-neutral-700);
+    padding: 5em;
+    text-align: center;
+}
+
+.page-about__quality-row{
+    display: flex;
+    margin-block: 2em;
+}
+.page-about__quaility-col{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+    text-align: left;
+}
+.page-about__quaility-col
++ .page-about__quaility-col{
+    margin-left: 2em;
+}
+
+/** page-about__features  */
+.page-about__features-custom,
+.page-about__features-create{
+    padding: 5em;
+}
+
+.features-custom__row{
+    display: flex;
+}
+
+.features-custom__col,
+.features-create__col{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    text-align: left;
+}
+.features-custom__col
++ .features-custom__col{
+    margin-left: 2em;
+}
+
+.features-custom__col >h3{
+    margin-bottom: 1em;
+}
+
+/** features make custom */
+.page-about__features-custom{
+    background-color: var(--clr-OuterSpace);
+}
+
+
+/** features create with care */
+.features-create__row{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.features-create__col
++ .features-create__col{
+    margin-right: 2em;
+}
