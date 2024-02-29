@@ -59,3 +59,8 @@ Fix code day 9
 ## Day 13 & 14 | Practice flexbox challenge 4
 
 [Flexbox Challenge #4 - Design Specs and Images](./Day_13_14/20_flexbox_challenge_4.html)
+
+## Day 15 | Intro to media queries
+
+1. [Media query basics](./Day_15/20_1_query.html)
+2. [Adding one to our layout](./Day_15/20_1_query.html)
