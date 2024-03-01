@@ -59,3 +59,20 @@ Fix code day 9
 ## Day 13 & 14 | Practice flexbox challenge 4
 
 [Flexbox Challenge #4 - Design Specs and Images](./Day_13_14/20_flexbox_challenge_4.html)
+
+## Day 15 | Intro to media queries
+
+1. [Media query basics](./Day_15/20_1_query.html)
+2. [Adding one to our layout](./Day_15/20_1_query.html)
+
+## Day 16 | What breakpoints to use?
+
+[The 100% correct way to do CSS breakpoints](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/)
+
+## Day 17 | The viewport meta tag
+
+[The meta viewport tag](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts/272982-day-17-the-viewport-meta-tag/788634-the-meta-viewport-tag)
+
+## Day 18 | Writing mobile-first CSS
+
+[Flexbox challenge 4 (Day_13_14)](/Day_18/22_flexbox_challenge_4.html)
