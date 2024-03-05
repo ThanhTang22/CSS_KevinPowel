@@ -80,3 +80,7 @@ Fix code day 9
 ## Day 19 | Mobile navigation challenge
 
 [Flexbox navigation (day15)](/Day_19/23_mobile_navigation.html)
+
+## Day 20 | Final challenge specs
+
+[Final challenge](./Day_20/24_final_challenge.html)
